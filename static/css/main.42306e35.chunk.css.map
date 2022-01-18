@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AAEA,GACE,aAAiB,CACjB,iBACF,CAEA,gBACE,WACF,CAEA,YACE,UAAW,CACX,eACF","file":"main.42306e35.chunk.css","sourcesContent":["@import 'antd/dist/antd.css';\n\nh1 {\n  color: whitesmoke;\n  font-size: x-large;\n}\n\n#root,body,html {\n  height: 100%;\n}\n\n.ant-layout {\n  width: 100%;\n  min-height: 100%;\n}\n"]}
