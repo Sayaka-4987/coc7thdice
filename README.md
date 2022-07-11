@@ -4,15 +4,11 @@ React 写的花里胡哨随机数生成器，使用了 Ant Design 的组件，�
 
 ------
 
-A simple ReactJS page that can generate random numbers for TRPG
+A simple ReactJS page that can generate random numbers for COC-TRPG
 
-### 链接
+### GitHub Pages 网页链接
 
 [https://sayaka-4987.github.io/CoC7thdice](https://sayaka-4987.github.io/CoC7thdice/)
-
-### PC 端显示效果
-
-<img src="https://a.im5i.com/2022/01/19/UnWcJ.png" alt="UnWcJ.png" border="0" style="zoom:80%;" />
 
 ### 移动端显示效果
 
