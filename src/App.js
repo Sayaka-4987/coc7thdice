@@ -83,7 +83,7 @@ const App = () => {
     "【20】审判（Judgement，XX）逆位：一蹶不振、幻灭、隐瞒、坏消息、无法决定、缺少目标、没有进展、消除、恋恋不舍。",
     "【21】世界（The World，XXI）正位：完成、成功、完美无缺、连续不断、精神亢奋、拥有毕生奋斗的目标、完成使命、幸运降临、快乐的结束、模范情侣。",
     "【21】世界（The World，XXI）逆位：未完成、失败、准备不足、盲目接受、一时不顺利、半途而废、精神颓废、饱和状态、合谋、态度不够融洽、感情受挫。"
-]
+  ]
 
   const SVG = () => <svg t="1642497827253" class="icon"
     viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2306"
@@ -127,7 +127,7 @@ const App = () => {
         arr[x] += 5
         arr[y] -= 5
       }
-      // 避免出现人类难以达到的属性
+      // 避免出现人类难以达到的 > 80 属性点
       arr[randomNumber(length) - 1] += diff
       let minI = arr.indexOf(Math.min(...arr))
       let maxI = arr.indexOf(Math.max(...arr))
@@ -327,26 +327,26 @@ const App = () => {
           <h2><br />塔罗牌</h2>
           <Space direction='vertical'>
             <Space>
-            <Button type="primary" onClick={() => { DrawSingleTarotCard() }}>
-              抽 1 张塔罗牌
-            </Button>
-            <Button type="primary" onClick={() => { SacredTriangleSpread() }}>
-              圣三角牌阵
-            </Button>
-            <Button type="primary" onClick={() => { FourElementsSpread() }}>
-              四要素牌阵
-            </Button>
-          </Space>
-          <Space>
-            <Button type="primary" onClick={() => { LittleCross() }}>
-              小十字牌阵
-            </Button>
-            <Button type="primary" onClick={() => { SixManifoldSpread() }}>
-              六芒星牌阵
-            </Button>
-            <Button type="primary" onClick={() => { CelticCross() }}>
-              凯尔特十字牌阵
-            </Button>
+              <Button type="primary" onClick={() => { DrawSingleTarotCard() }}>
+                抽 1 张塔罗牌
+              </Button>
+              <Button type="primary" onClick={() => { SacredTriangleSpread() }}>
+                圣三角牌阵
+              </Button>
+              <Button type="primary" onClick={() => { FourElementsSpread() }}>
+                四要素牌阵
+              </Button>
+            </Space>
+            <Space>
+              <Button type="primary" onClick={() => { LittleCross() }}>
+                小十字牌阵
+              </Button>
+              <Button type="primary" onClick={() => { SixManifoldSpread() }}>
+                六芒星牌阵
+              </Button>
+              <Button type="primary" onClick={() => { CelticCross() }}>
+                凯尔特十字牌阵
+              </Button>
             </Space>
 
             <Typography style={{ whiteSpace: 'pre-wrap' }}>{tarotResult}</Typography>
